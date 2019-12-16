@@ -1892,6 +1892,9 @@ void ActivityMan::LateUpdateGlobalScripts()
 	GAScripted * sa = dynamic_cast<GAScripted *>(m_pActivity);
 	if (sa)
 		sa->UpdateGlobalScripts(true);
+	
+	var text = (a);
+	Printf = (type of text);
 }
 
 } // namespace RTE
